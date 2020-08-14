@@ -24,9 +24,9 @@ public class Attendance {
         //Try catch statement to catch any file reading exceptions
         try {
             //New file object based with path name
-            File zoomChat = new File("meeting_saved_chat.txt");
+            File zoomChat = new File("src/CSC211Attendance/meeting_saved_chat.txt");
 
-            File classRoster = new File("csc211Roster.txt");
+            File classRoster = new File("src/CSC211Attendance/csc211Roster.txt");
 
             //New scanner object to read the lines of the file, passing in file zoomChat into the scanner for input
             Scanner fileReader = new Scanner(zoomChat);
